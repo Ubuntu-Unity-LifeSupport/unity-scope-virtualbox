@@ -1,0 +1,19 @@
+[Scope]
+DBusName=com.canonical.Unity.Scope.Boxes.Virtualbox
+DBusPath=/com/canonical/unity/scope/boxes/virtualbox
+Icon=/usr/share/icons/unity-icon-theme/places/svg/service-virtualbox.svg
+QueryBinary=virtualbox
+_Keywords=virtualbox;boxes;machines;vm;vbox;
+RequiredMetadata=
+OptionalMetadata=
+Loader=/usr/share/unity-scopes/virtualbox/unity_virtualbox_daemon.py
+Module=virtualbox.unity_virtualbox_daemon
+ModuleType=python3
+RemoteContent=false
+Type=boxes
+_Name=VirtualBox
+_Description=This is an Ubuntu search plugin that enables information from VirtualBox to be searched and displayed in the Dash underneath the Boxes header. If you do not wish to search this content source, you can disable this search plugin.
+_SearchHint=Search VirtualBox machines
+
+[Desktop Entry]
+X-Ubuntu-Gettext-Domain=unity-scope-virtualbox
